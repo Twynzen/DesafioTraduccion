@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío de Traducción</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafío de Traducción</h1>
+        <div id="welcome">
+            <p>Traduce la palabra al español. Presiona comenzar para iniciar.</p>
+            <button id="startBtn">Comenzar</button>
+        </div>
+        <div id="quiz" class="hidden">
+            <p id="prompt"></p>
+            <input type="text" id="answerInput" placeholder="Escribe tu traducción...">
+            <button id="submitBtn">Enviar</button>
+            <p id="feedback"></p>
+            <button id="nextBtn" class="hidden">Siguiente</button>
+        </div>
+        <div id="result" class="hidden">
+            <p id="scoreMsg"></p>
+            <button id="restartBtn">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
